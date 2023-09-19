@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: "Pretendard-Regular";
+}
+
+body {
+    background: linear-gradient(to right, #F0F4FF, #A5B6EE);
+}
+
+.container {
+    width: fit-content;
+    margin: 100px auto;
+}
+
+.logo {
+    width: fit-content;
+    margin: 0 auto 60px;
+}
+
+.timerBox {
+    width: 400px;
+    padding: 40px 0;
+    background: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);
+    border-radius: 16px;
+}
+
+.timerBox h2 {
+    width: fit-content;
+    margin: 0 auto;
+
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+.line {
+    width: 312px;
+    height: 2px;
+    margin: 23px auto 0;
+    background-color: #3D538A;
+}
+
+.timer-wrap {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+.timer .label {
+    width: fit-content;
+    margin: 0 auto;
+    color: #A5B6EE;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.4px;
+}
+
+.timer .time {
+    width: 80px;
+    height: 80px;
+    margin: 4px 8px;
+    background: linear-gradient(314.28deg, #304577 0%, #4C65A0 83%);
+    border: 1px solid #354971;
+    border-radius: 5px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.timer .time:first-child::after {
+    content: ':';
+    font-size: 40px;
+    font-weight: 700;
+    color: #A5B6EE;
+}
+
+.btn-wrap {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.btn-wrap button {
+    width: 112px;
+    height: 48px;
+    margin: 0 6px;
+    background-color: #324577;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px 0px #0000000D inset;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+button img {
+    transform: translate(0%, 10%);
+}
